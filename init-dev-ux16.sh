@@ -26,3 +26,12 @@
 #Setup Java Tool repository
 
 #Adding stuffs in Path
+##Java 
+JAVA_HOME=/usr/java/j2se
+JAVA_FONTS=/usr/share/fonts/truetype
+ANT_HOME=/usr/share/ant
+                       
+PATH=$JAVA_HOME/bin:$ANT_HOME/bin:$PATH
+                                       
+export PATH JAVA_HOME JAVA_FONTS ANT_HOME
+export CLASSPATH=.
