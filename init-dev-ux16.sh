@@ -27,6 +27,7 @@
 
 #Adding stuffs in Path
 ##Java 
+ln -s /usr/java/jdk1.5.0 /usr/java/j2se
 JAVA_HOME=/usr/java/j2se
 JAVA_FONTS=/usr/share/fonts/truetype
 ANT_HOME=/usr/share/ant
