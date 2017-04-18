@@ -5,6 +5,7 @@ This contains all resources for testing
 With selenium
 
 # Automation : basic security 
+- sql injections
 
 # Automation : usibility /performance
 -> Browser navigation  API with selenium
