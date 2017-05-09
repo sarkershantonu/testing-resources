@@ -1,5 +1,5 @@
 # Summary 
-Just to have fun with FCC website with responding in high number of request . So that they keep net neutrality .This is just a response on John Oliver's call but in Automated Way :) 
+Just to have fun with FCC website with high number of request . So that they keep net neutrality .This is just a response on John Oliver's call but in Automated Way :) 
 
 # How to do
 - Download Java 8 & install in your PC/mac (if you dont have Java already, usually we have)
