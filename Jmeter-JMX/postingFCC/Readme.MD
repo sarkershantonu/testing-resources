@@ -2,8 +2,8 @@
 - Jmeter 
 
 # Requirements 
-- Java 8, download  ![Install] (http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) 
-- Jmeter , download ![Jmeter](http://jmeter.apache.org/download_jmeter.cgi)
+- Java 8, download & Install http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+- Jmeter , download http://jmeter.apache.org/download_jmeter.cgi
 
 # Change number of request to send
 ![change Number of Request](payload_loop.JPG)
@@ -15,3 +15,8 @@
 - Simulated Browser is Chrome
 
 So, change them as you need. 
+
+See the main story 
+![Net neutrality -2](https://www.youtube.com/watch?v=92vuuZt7wak)
+
+![Net neutrality -1](https://www.youtube.com/watch?v=fpbOEoRrHyU)
