@@ -1,8 +1,12 @@
 # Tool Name
 - Jmeter 
 
-#Requirements 
+# Requirements 
 - Java 8, download & Install 
 - Jmeter 
 
-![change Number of Request](https://github.com/sarkershantonu/testing-resources/blob/master/Jmeter-JMX/postingFCC/payload_loop.JPG)
+# Change number of request to send
+![change Number of Request](payload_loop.JPG)
+
+# Change Variable 
+Currently Email address set to 
