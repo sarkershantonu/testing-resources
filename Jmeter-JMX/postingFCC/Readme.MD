@@ -17,6 +17,6 @@
 So, change them as you need. 
 
 See the main story 
-![Net neutrality -2](https://www.youtube.com/watch?v=92vuuZt7wak)
+Net neutrality -2 =>https://www.youtube.com/watch?v=92vuuZt7wak
 
-![Net neutrality -1](https://www.youtube.com/watch?v=fpbOEoRrHyU)
+Net neutrality -1 => https://www.youtube.com/watch?v=fpbOEoRrHyU
