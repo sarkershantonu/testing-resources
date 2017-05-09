@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="3.1" jmeter="3.1 r1770033">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
+      <stringProp name="TestPlan.comments"></stringProp>
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <collectionProp name="Arguments.arguments"/>
+      </elementProp>
+      <stringProp name="TestPlan.user_define_classpath"></stringProp>
+    </TestPlan>
+    <hashTree>
+      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="Variables" enabled="true">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="CHROME" elementType="Argument">
+            <stringProp name="Argument.name">CHROME</stringProp>
+            <stringProp name="Argument.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="name" elementType="Argument">
+            <stringProp name="Argument.name">name</stringProp>
+            <stringProp name="Argument.value">${__RandomString(4,qwertyuioplkjhgfdsazxcvbnm,)} ${__RandomString(6,qwertyuioplkjhgfdsazxcvbnm,)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="email" elementType="Argument">
+            <stringProp name="Argument.name">email</stringProp>
+            <stringProp name="Argument.value">john_${__Random(0,100000,)}_${__time(HMS,)}.yahoo.com</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </Arguments>
+      <hashTree/>
+      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <threadCounts>true</threadCounts>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+      </ResultCollector>
+      <hashTree/>
+      <CacheManager guiclass="CacheManagerGui" testclass="CacheManager" testname="HTTP Cache Manager" enabled="true">
+        <boolProp name="clearEachIteration">false</boolProp>
+        <boolProp name="useExpires">false</boolProp>
+      </CacheManager>
+      <hashTree/>
+      <CookieManager guiclass="CookiePanel" testclass="CookieManager" testname="HTTP Cookie Manager" enabled="true">
+        <collectionProp name="CookieManager.cookies"/>
+        <boolProp name="CookieManager.clearEachIteration">false</boolProp>
+        <stringProp name="CookieManager.policy">standard</stringProp>
+        <stringProp name="CookieManager.implementation">org.apache.jmeter.protocol.http.control.HC4CookieHandler</stringProp>
+      </CookieManager>
+      <hashTree/>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Payload" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">500</stringProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <longProp name="ThreadGroup.start_time">1494316113000</longProp>
+        <longProp name="ThreadGroup.end_time">1494316113000</longProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+      </ThreadGroup>
+      <hashTree>
+        <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="Submit" enabled="true">
+          <boolProp name="TransactionController.includeTimers">false</boolProp>
+          <boolProp name="TransactionController.parent">true</boolProp>
+        </TransactionController>
+        <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="filings-1" enabled="true">
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+              <collectionProp name="Arguments.arguments"/>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">ecfsapi.fcc.gov</stringProp>
+            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/filings</stringProp>
+            <stringProp name="HTTPSampler.method">OPTIONS</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <boolProp name="HTTPSampler.image_parser">true</boolProp>
+            <boolProp name="HTTPSampler.monitor">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Accept-Encoding" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate, sdch, br</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Language" elementType="Header">
+                  <stringProp name="Header.name">Accept-Language</stringProp>
+                  <stringProp name="Header.value">en,bn;q=0.8</stringProp>
+                </elementProp>
+                <elementProp name="Connection" elementType="Header">
+                  <stringProp name="Header.name">Connection</stringProp>
+                  <stringProp name="Header.value">keep-alive</stringProp>
+                </elementProp>
+                <elementProp name="Referer" elementType="Header">
+                  <stringProp name="Header.name">Referer</stringProp>
+                  <stringProp name="Header.value">https://www.fcc.gov/ecfs/filings/express/review</stringProp>
+                </elementProp>
+                <elementProp name="User-Agent" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">${CHROME}</stringProp>
+                </elementProp>
+                <elementProp name="DNT" elementType="Header">
+                  <stringProp name="Header.name">DNT</stringProp>
+                  <stringProp name="Header.value">1</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">*/*</stringProp>
+                </elementProp>
+                <elementProp name="Access-Control-Request-Headers" elementType="Header">
+                  <stringProp name="Header.name">Access-Control-Request-Headers</stringProp>
+                  <stringProp name="Header.value">content-type</stringProp>
+                </elementProp>
+                <elementProp name="Access-Control-Request-Method" elementType="Header">
+                  <stringProp name="Header.name">Access-Control-Request-Method</stringProp>
+                  <stringProp name="Header.value">POST</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="filings-2" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">{  &#xd;
+   &quot;attachments&quot;:[  &#xd;
+&#xd;
+   ],&#xd;
+   &quot;documents&quot;:[  &#xd;
+&#xd;
+   ],&#xd;
+   &quot;proceedings&quot;:[  &#xd;
+      {  &#xd;
+         &quot;applicant_name&quot;:&quot; &quot;,&#xd;
+         &quot;callsign&quot;:&quot; &quot;,&#xd;
+         &quot;channel&quot;:&quot; &quot;,&#xd;
+         &quot;city&quot;:&quot; &quot;,&#xd;
+         &quot;consolidated_proceeding_id&quot;:null,&#xd;
+         &quot;date_archived&quot;:null,&#xd;
+         &quot;date_closed&quot;:&quot;2099-12-31T23:59:59.999Z&quot;,&#xd;
+         &quot;date_commission_decision&quot;:null,&#xd;
+         &quot;date_designated&quot;:null,&#xd;
+         &quot;date_effective&quot;:null,&#xd;
+         &quot;date_initial_decision&quot;:null,&#xd;
+         &quot;date_nprm&quot;:null,&#xd;
+         &quot;date_oral_argument&quot;:null,&#xd;
+         &quot;date_proceeding_created&quot;:&quot;2017-04-26T14:49:35.900Z&quot;,&#xd;
+         &quot;date_public_notice&quot;:null,&#xd;
+         &quot;date_reporting_and_order&quot;:null,&#xd;
+         &quot;date_rule_board_decision&quot;:null,&#xd;
+         &quot;flag_exparte_allowed&quot;:&quot;Y&quot;,&#xd;
+         &quot;face_card_id&quot;:&quot;301759&quot;,&#xd;
+         &quot;filed_by&quot;:&quot;Aleta.Bowers&quot;,&#xd;
+         &quot;file_number&quot;:&quot;&quot;,&#xd;
+         &quot;flag_archived&quot;:&quot;N&quot;,&#xd;
+         &quot;flag_historical_data_exists&quot;:&quot;N&quot;,&#xd;
+         &quot;flag_internet_file&quot;:&quot;Y&quot;,&#xd;
+         &quot;flag_rulemaking_or_docket&quot;:&quot;D&quot;,&#xd;
+         &quot;flag_small_business_impact&quot;:null,&#xd;
+         &quot;id_bureau&quot;:&quot; &quot;,&#xd;
+         &quot;id_proceeding&quot;:&quot;301759&quot;,&#xd;
+         &quot;id_state&quot;:null,&#xd;
+         &quot;location&quot;:&quot; &quot;,&#xd;
+         &quot;description&quot;:&quot;Restoring Internet Freedom&quot;,&#xd;
+         &quot;description_display&quot;:&quot;Restoring Internet Freedom&quot;,&#xd;
+         &quot;name&quot;:&quot;17-108&quot;,&#xd;
+         &quot;rule_section&quot;:&quot; &quot;,&#xd;
+         &quot;sunshine_start_date&quot;:null,&#xd;
+         &quot;sunshine_end_date&quot;:null,&#xd;
+         &quot;comment_start_date&quot;:null,&#xd;
+         &quot;comment_end_date&quot;:null,&#xd;
+         &quot;comment_reply_start_date&quot;:null,&#xd;
+         &quot;comment_reply_end_date&quot;:null,&#xd;
+         &quot;date_hot_docket&quot;:null,&#xd;
+         &quot;filingStatus&quot;:&quot;OPENALL&quot;,&#xd;
+         &quot;bureau&quot;:{  &#xd;
+            &quot;code&quot;:&quot;WC&quot;,&#xd;
+            &quot;name&quot;:&quot;Wireline Competition Bureau&quot;,&#xd;
+            &quot;edocs_bureau_code&quot;:&quot;WCB&quot;&#xd;
+         },&#xd;
+         &quot;total&quot;:350151,&#xd;
+         &quot;_index&quot;:&quot;proceedings.new&quot;,&#xd;
+         &quot;recent_filings&quot;:184650,&#xd;
+         &quot;days&quot;:30&#xd;
+      }&#xd;
+   ],&#xd;
+   &quot;filers&quot;:[  &#xd;
+      {  &#xd;
+         &quot;name&quot;:&quot;${name}&quot;&#xd;
+      }&#xd;
+   ],&#xd;
+   &quot;authors&quot;:[  &#xd;
+&#xd;
+   ],&#xd;
+   &quot;bureaus&quot;:[  &#xd;
+&#xd;
+   ],&#xd;
+   &quot;lawfirms&quot;:[  &#xd;
+&#xd;
+   ],&#xd;
+   &quot;addressentity&quot;:{  &#xd;
+      &quot;address_line_1&quot;:&quot;1100 6th Ave&quot;,&#xd;
+      &quot;address_line_2&quot;:&quot;&quot;,&#xd;
+      &quot;city&quot;:&quot;NYC&quot;,&#xd;
+      &quot;state&quot;:&quot;NY&quot;,&#xd;
+      &quot;zip_code&quot;:&quot;10036&quot;&#xd;
+   },&#xd;
+   &quot;internationaladdressentity&quot;:{  &#xd;
+&#xd;
+   },&#xd;
+   &quot;contact_email&quot;:&quot;${email}&quot;,&#xd;
+   &quot;emailConfirmation&quot;:&quot;true&quot;,&#xd;
+   &quot;text_data&quot;:&quot;Please restore net neutrality . We don&apos;t want any priority of content.&quot;,&#xd;
+   &quot;express_comment&quot;:1&#xd;
+}</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain">ecfsapi.fcc.gov</stringProp>
+            <stringProp name="HTTPSampler.port">443</stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            <stringProp name="HTTPSampler.protocol">https</stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/filings</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <boolProp name="HTTPSampler.image_parser">true</boolProp>
+            <boolProp name="HTTPSampler.monitor">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="Accept-Encoding" elementType="Header">
+                  <stringProp name="Header.name">Accept-Encoding</stringProp>
+                  <stringProp name="Header.value">gzip, deflate, sdch, br</stringProp>
+                </elementProp>
+                <elementProp name="Accept-Language" elementType="Header">
+                  <stringProp name="Header.name">Accept-Language</stringProp>
+                  <stringProp name="Header.value">en,bn;q=0.8</stringProp>
+                </elementProp>
+                <elementProp name="Connection" elementType="Header">
+                  <stringProp name="Header.name">Connection</stringProp>
+                  <stringProp name="Header.value">keep-alive</stringProp>
+                </elementProp>
+                <elementProp name="Referer" elementType="Header">
+                  <stringProp name="Header.name">Referer</stringProp>
+                  <stringProp name="Header.value">https://www.fcc.gov/ecfs/filings/express/review</stringProp>
+                </elementProp>
+                <elementProp name="User-Agent" elementType="Header">
+                  <stringProp name="Header.name">User-Agent</stringProp>
+                  <stringProp name="Header.value">${CHROME}</stringProp>
+                </elementProp>
+                <elementProp name="DNT" elementType="Header">
+                  <stringProp name="Header.name">DNT</stringProp>
+                  <stringProp name="Header.value">1</stringProp>
+                </elementProp>
+                <elementProp name="Access-Control-Request-Headers" elementType="Header">
+                  <stringProp name="Header.name">Access-Control-Request-Headers</stringProp>
+                  <stringProp name="Header.value">content-type</stringProp>
+                </elementProp>
+                <elementProp name="Access-Control-Request-Method" elementType="Header">
+                  <stringProp name="Header.name">Access-Control-Request-Method</stringProp>
+                  <stringProp name="Header.value">POST</stringProp>
+                </elementProp>
+                <elementProp name="Accept" elementType="Header">
+                  <stringProp name="Header.name">Accept</stringProp>
+                  <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
+                </elementProp>
+                <elementProp name="Content-Type" elementType="Header">
+                  <stringProp name="Header.name">Content-Type</stringProp>
+                  <stringProp name="Header.value">application/json;charset=UTF-8</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+      </hashTree>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>
