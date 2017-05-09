@@ -1,3 +1,15 @@
+# Summary 
+Just to have fun with FCC website with responding in high number of request . So that they keep net neutrality .This is just a response on John Oliver's call but in Automated Way :) 
+
+# How to do
+- Download Java 8 & install in your PC/mac (if you dont have Java already, usually we have)
+- Download Jmeter and unzip it. 
+- inside unzipped folder see bin folder and run jmeter.bat(windows) or Jmeter.sh(linux/mac) you will see jmeter running
+- Dowload fcc.jmx file from this repo
+- Open this in Jmeter(or drag drop)
+- Press Play (|>) button in jmeter 
+- Optional => you can change default default 500 payload loop or change variable/data which goes with the request. 
+
 # Tool Name
 - Jmeter 
 
