@@ -10,3 +10,5 @@ With selenium
 
 # Automation : usibility /performance
 -> Browser navigation  API with selenium
+
+# Vidiagram of Testing
