@@ -15,4 +15,5 @@ With selenium
 
 # Online Meetup Youtube Recordings 
 1. 2017-03-18 : https://www.youtube.com/watch?v=91stNrawgSU
-2. 
+2. 2017-01-07 : https://www.youtube.com/watch?v=BIfSMtFEhzY
+
