@@ -3,7 +3,11 @@
 # installation
 
 # Finally : 
-[!System](system.jpg)
-[!Sound](sound.jpg)
-[!Display](GPU.jpg)
-[!HDD](hdd.jpg)
+
+![System](system.jpg)
+
+![Sound](sound.jpg)
+
+![Display](GPU.jpg)
+
+![HDD](hdd.jpg)
