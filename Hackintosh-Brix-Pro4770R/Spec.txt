@@ -1,0 +1,55 @@
+Features Intel® 4th generation Core™ processors
+Intel® Iris™ Pro graphics 5200
+Supports 2.5” thickness 7.0/9.5mm Hard Drives (1 x 6Gbps SATA3)
+Ultra compact PC design - 0.79L (62 x 111.4 x 114.4 mm)
+1 x mSATA SSD Slot
+2 x SO-DIMM DDR3L Slots (1333 / 1600 MHz)
+IEEE 802.11 a/b/g/n/ac Wi-Fi / Bluetooth 4.0 Mini-PCIe card
+HDMI plus Mini DisplayPort Outputs (supports dual displays)
+4K resolution output (4096 x 2304 via HDMI)
+4 x USB 3.0
+Gigabit LAN
+Headphone jack with S/PDIF
+VESA mounting bracket (75 x 75mm + 100 x 100mm)
+
+
+------------------
+Detail Spec : http://www.gigabyte.us/Mini-PcBarebone/GB-BXi7-4770R-rev-10#sp
+
+
+
+Dimension	62 x 111.4 x 114.4 mm ( 2.4” x 4.3” x 4.5”)
+Motherboard Size	100 x 105 mm
+CPU	4th generation Intel® Core™ i7-4770R 3.90 GHz
+Chipset	Intel® HM87 Chipset
+Memory	2 x SO-DIMM DDR3L slots (DDR3 1.35V)
+1333 / 1600 MHz
+Max. 16GB
+LAN	Gigabit LAN (Realtek RTL8111G)
+Graphics	Intel® Iris™ Pro graphics 5200
+Audio	Realtek ALC269
+HDMI Resolution (Max.)	4096x2304 @ 24 Hz
+Mini DP Resolution (Max.)	3840x2160 @ 60 Hz
+Expansion Slots	1 x mSATA slot
+1 x Half-size mini-PCIe slot occupied by the WiFi+BT card
+1 x SATA slot
+Front I/O	2 x USB 3.0
+1 x head phone jack with SPDIF
+Rear I/O	1 x HDMI
+1 x Mini DisplayPort
+2 x USB 3.0
+1 x RJ45
+1 x DC-In
+1 x Kensington lock slot
+Storage	Supports 2.5” thickness 7.0/9.5mm Hard Drives (1 x 6Gbps SATA3)
+Power Supply	Input: AC 100-240V
+Output: DC 19V
+7.1A
+VESA	Bracket included
+Supports 75 x 75 and 100 x 100 mm
+Support OS	WIN7 32/64bit
+WIN8 32/64bit
+WIN8.1 32/64bit
+WIN10 64bit
+Environment	System Environment Operating Temperature: 0°C to +35°C
+System Storage Temperature: -20°C to +60°C
