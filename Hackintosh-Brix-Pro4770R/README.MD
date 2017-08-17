@@ -35,6 +35,8 @@ C. Download Multibeast 8.2.3 (https://www.tonymacx86.com/resources/multibeast-el
 - Boot loader UEFI 
 - Customize/Definations/Mac Pro Ratina 11,2
 
+NOTE : if you have Zbox IQ01 Plus, Choose Audio ACL892 + HDMI Optional for HD 4600. Only this is changing. All are same 
+
 ![Config](multibeast.jpg)
 
 And install it. It will take 2/3 min. And you are done. 
