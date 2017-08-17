@@ -1,0 +1,64 @@
+Features 
+Intel 4th generation Core i7 processors 4770T, 45w, 2.5/3.7Ghz 8MB, 4C/8T
+Supports 2.5” thickness 7.0/9.5mm Hard Drives (1 x 6Gbps SATA3)
+Ultra compact PC design - 0.79L (62 x 111.4 x 114.4 mm)
+1 x mSATA SSD Slot
+2 x SO-DIMM DDR3L Slots (1333 / 1600 MHz)
+IEEE 802.11 a/b/g/n/ac Wi-Fi / Bluetooth 4.0 Mini-PCIe card
+2xDiaplay Port 4k@60hz
+1xDVI Port 4k@30hz
+
+2X Gigabit LAN
+------------------
+Detail Spec : https://www.zotac.com/us/product/mini_pcs/iq01-plus#spec
+
+Processor Intel Core i7-4770T(quad core, 2.5 GHz up to 3.7 GHz)
+Chipset Intel H87
+System Memory 4GB(Max 16GB)
+ Graphics
+Graphics Engine Intel HD Graphics 4600
+Video Output 2x DisplayPort, 
+Single Link DVI-I
+ Storage
+Hard Drive
+Mass Storage 500GB 5400RPM SATA HDD
+Optical Drive
+mSATA Yes
+M.2 None
+Card Reader MMC/SD/SDHC/SDXC
+ I/O Ports
+Audio Microphone, Headphone, 
+SPDIF optical output
+USB Port 4 x USB 3.0
+LAN Dual Gigabit LAN
+Antenna 1 x WiFI SMA connetor
+Wifi 802.11ac/b/g/n
+Bluetooth Bluetooth 4.0
+Legacy I/O None
+CIR Infrared Port Yes
+Thunderbolt None
+USB
+IDE
+VGA
+ Mechanical
+Kensington Lock None
+LED Indicators Power, HDD, WiFi
+Power Supply AC Adapter 
+O/P: DC 19V/90W
+Cooling system Fan + Heatsink
+ZBOX Dimensions 188mm x 188mm x 51mm
+Case Mounting Vesa mount kit
+ Miscellaneous
+Supported OS Windows 8 / 7 (32/64-bit)
+Accessories 1 x WiFi antenna 
+1 x VESA mount 
+4 x mounting screws 
+1 x DVI-VGA adapter 
+1 x stand 
+1 x AC Adapter 
+1 x power cord 
+1 x warranty card 
+1 x user manual 
+1 x quick install guide 
+1 x USB drive with O/S driver 
+1 x driver disc
