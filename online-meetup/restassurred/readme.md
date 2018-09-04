@@ -12,4 +12,9 @@
 - OWASP Security checklist (optional) through restassured
 - Performance testing an webservice using restassured (if not Jmeter)
 
-# Day 1 
+# Day 1 , 2 sep, 2018
+- Define Automation requirement
+- Finalize architecture & project
+- Define test cases and test strategy
+- https://www.youtube.com/playlist?list=PLLJB7JIS-EHYJqA4FbffdgPgPIr6N_kJ2
+- 
