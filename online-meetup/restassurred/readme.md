@@ -17,4 +17,10 @@
 - Finalize architecture & project
 - Define test cases and test strategy
 - https://www.youtube.com/playlist?list=PLLJB7JIS-EHYJqA4FbffdgPgPIr6N_kJ2
-- 
+
+# Day 1 : Topics 
+- Automation Basics
+- Maven
+- Project creation
+- API Testing basics 
+- Primary testings
