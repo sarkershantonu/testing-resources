@@ -11,3 +11,5 @@
 - Create jenkins jobs for code change triggers (optional)
 - OWASP Security checklist (optional) through restassured
 - Performance testing an webservice using restassured (if not Jmeter)
+
+# Day 1 
