@@ -1,4 +1,4 @@
-# Jmeter -Best Practices
+# Jmeter - Best Practices
 
 # Property i use 
 -user.properties
