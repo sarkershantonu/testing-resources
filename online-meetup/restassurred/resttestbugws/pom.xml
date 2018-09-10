@@ -17,6 +17,7 @@
         <aspectj.version>1.8.9</aspectj.version>
         <junit.version>4.12</junit.version>
         <project.java.version>1.8</project.java.version>
+        <test.suit>org.automation.suits.ReleaseSepetemberRegressionTests.class</test.suit>
     </properties>
 
     <build>
@@ -44,6 +45,11 @@
                             <value>ru.yandex.qatools.allure.junit.AllureRunListener</value>
                         </property>
                     </properties>
+                    <includes>
+                        <include>
+                            ${test.suit}
+                        </include>
+                    </includes>
                 </configuration>
                 <dependencies>
                     <dependency>
